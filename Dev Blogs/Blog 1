@@ -1,0 +1,21 @@
+Author: cjh
+Hours: 4~5
+
+Dev notes
+=============
+1) The initial set up of the code base was quite simple and went quite well.
+
+2) I successfully got to  point where I could start implementing movement logic for pieces, and have tests being made to check the logic for them
+
+3) After making the initial set-up I made the movement logic for moving a pawn, during this I came up for a solution for ensuring that the pieces would move in the correct y axis depending on the colour of the piece. This led to some minor changes in the initial set up with Piece, but this should save, time, effort and just be better code practice.
+
+4) After being happy with my movement logic behind pawn, I wrote some JUnit tests to see if it worked as intended. During the tests, there were a logic errors, which was simple to fix just hard to find. After fixing the first logic issue, I noticed another issue where a test that was reporting to pass when it should have failed. This issue took me a while to find, I had a break part way through this issue in order to reset. After coming back I realised this issue was an issue with test set up and I was able to fix this issue. Making all the tests work/pass.
+
+5) After this I decided to actually write some Javadoc comments before making too much progress and needing to come back to add them.
+
+Personal comments
+=================
+-Feels like a good start
+-Frustrating that minor issues with testing took so long to figure out
+
+

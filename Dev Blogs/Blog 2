@@ -1,0 +1,17 @@
+Author: cjh
+Hours: 5~6
+
+Dev notes
+=============
+1) After coming back to work on the project, I realised I made a major mistake on the inital set up. The mistake was the way in which I thought 2d array access worked, the initial implementation had the x and y values written in the wrong order meaning that the pawns were moving along the X axis instead of the Y when moving across a board. I fixed the issue, it wasn't too difficult, i just had to amend the test result expectations
+
+2) I wrote All of the Rook movement logic, but i was unhappy with the efficiency and the repeated code used, so i used ChatGPT to help me make a more efficient movement logic and redundancy.
+
+3) I wrote the tests for the Rook class and then also realised that there was no checks to see if the piece being moved is not null and is using the correct movement logic. I also realised that before anything moves, there should be a check of the target square to see if the square is empty or is occupied by  an opponents piece. After realising every piece will need this check, i implemented changes to piece so the checks would be done before the movement logic
+
+
+Personal comments
+=================
+- Lots of big changes, not much progress, but better to make these changes now than have more issues later.
+- Proud to have caught these issues before they became major issues later
+- Feel like efficiency of the code and i reduced the current code redundancy and future proofed future classes

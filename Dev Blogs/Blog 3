@@ -1,0 +1,11 @@
+Author: cjh
+Hours: 6
+
+Dev notes
+=============
+1) I made Bishop, Queen, Knight and King classes and tests for all of these classes. The hardest class of these to make was the queen class, however due to having made the rook and bishop class before queen it was simpler.
+
+Personal Comments:
+========================
+- I feel like im coming to the end of most of the back end programming and will have to start learning how to use scene builder and javafx.
+- I recently added Codium to IntelliJ so it has made it possible to make quick progress and it has helped me improve my code abilities.

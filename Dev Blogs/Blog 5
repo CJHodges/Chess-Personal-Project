@@ -1,0 +1,9 @@
+Author: cjh
+Hours: 2.5
+
+Dev notes
+=============
+1) I added a pom.xml file to the project. It should add the necessary dependencies for the project such as the Testing Library and JavaFX.
+Personal Comments:
+========================
+- Adding Maven took way too long, I'm still not certain if it's working properly. I tried my best to do it myself, but i couldn't get to work as intended, so i used a pom.xml file from a group project I worked on as a baseline, Guess I'll find out of it works with later development.

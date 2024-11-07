@@ -1,0 +1,15 @@
+Author: cjh
+Hours: 3
+
+Dev notes
+=============
+1) I have made a main gameplay loop, the loop is currently just text based, the loop also doesn't show the board, but the loop and the chess logic is all functional.
+2) I wrote code to make and set up the chess pieces.
+3) Minor changes have been made around the code, such as moving the setup function outside of the initalize function for the chessboard class. This was done to stop issues with how the JUnit testing was previously written.
+
+Personal Comments:
+========================
+- During the making of the loop I realised that i to come up with a way to check that only the right coloured pieces could be moved.
+- I also had to write the loops to make and set the pieces on the board, I feel i did this well
+- Currently the main gameplay loop will only end if a King piece is successfully taken, it does not check for checkmate. I currently have no idea how to write a way to check for checkmate, and the current solution does work.
+- I haven't written JUnit tests for the main gameplay and logic loop classes yet, not sure if they are 100% necessary, i feel like tests for these will come in just playing the game.
