@@ -1,5 +1,5 @@
 # Chess Personal Project
-This is a solo personal project done by Callum John Hodges, the project has an end goal, but steth goals may be added. 
+This is a solo personal project done by Callum John Hodges, the project has an end goal, but some extension goals may be added. 
 
 There is no clear deadline for this project, and all work on the project shall be documented.
 ***
@@ -14,5 +14,5 @@ This project will be considered a success if i am able to successfully create th
 I intend to learn how to use javafx, I have never used javafx so i will need to learn how to use it and how to integrate the back-end/ logic of the game with javafx
 
 # Documentation of the project:
-There will be minimal documentation of the project. I plan to document changes made to the code using git commits and i plan to document the total amount of hours spent on teh project by adding blogs that contain what was done.
+There will be minimal documentation of the project. I plan to document changes made to the code using git commits and i plan to document the total amount of hours spent on the project by adding blogs that contain what was done.
 
